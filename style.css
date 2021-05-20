@@ -1,62 +1,99 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
   }
   
   body {
-    background-color:rgb(233, 232, 232);
+    background-color:#e6ecf4;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   /* Style the header */
   header {
-    background-color:rgb(233, 232, 232);
+
+    color: #004295    ;
+    font-family: "Georgia", Sans-serif;
+    font-size: 28px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 7.6px;
+    background-color: #e6ecf4;
     padding: 20px;
     text-align: left;
-    font-size: 25px;
-    color: rgb(2, 2, 75);
+    margin-bottom: 50px;
   }
 
+  /* Style the logo */
   .logo{
       position: relative;
       float: right;
-      width: 160px;
-      height: 120px;
+      width: 196px;
+      height: 196px;
   }
 
   /* Style the navigation menu */
   nav {
-    background-color:rgb(224, 224, 224);
+    background-color:#9bb4d5;
     overflow: hidden;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
   }
   
   /* Style the links inside the menu */
   nav a {
-    float: left;
-    display: block;
-    color: rgb(1, 1, 48);
-    text-align: center;
-    padding: 14px 16px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 500 ;
+    color: #0a264c ;
+    text-transform: uppercase;
+    padding: 30px 30px;
+    letter-spacing: 1.5px;
     text-decoration: none;
+    flex-grow: 1;
+    
   }
 
-  .img1{
-    width:100%;
-  }
-  .txt{
-      position: absolute;
-      text-align: left;
-      background: none;
-      padding: 300px 100px;
-      font-size: 200%;
-      color: #f1f1f1;
+  /* change anchor's background when hovering or clicking */
+  a.active,a:hover{
+    background-color: #82a2ca;
   }
 
-  .header{
+  /*Blank Area surrounding parallax*/
+.BlankSpace{
+  margin: 1% 0;
+}
+
+/*Parallax (image moves with scrolling) */
+.parallax{
+  background : url(img2.png) ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+}
+/*Adjusts the size of the parallax Image needs to be centered in the page*/
+.parallax-inner{
+padding-top: 15%;
+padding-bottom: 15%;
+}
+
+/* paragraphs inside the parallax Needs adjusting*/
+.parallax-inner p{
+  position: absolute;
+  text-align: left;
+  background: none;
+  padding: 100px 100px;
+  font-size: 200%;
+  color: black;
+}
+
+.header{
     color: rgb(2, 2, 75);
     font-size: 200%;
   }
 
-  .dr1, .dr2, .dr3, .dr4{
+.dr1, .dr2, .dr3, .dr4{
     color: rgb(15, 15, 97);
   }
 
