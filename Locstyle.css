@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+  }
+    
+  body {
+    background-color:#e6ecf4;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+    
+    /* Style the header */
+  header {
+    color: #004295    ;
+    font-family: "Georgia", Sans-serif;
+    font-size: 28px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 7.6px;
+    background-color: #e6ecf4;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  
+    /* Style the logo */
+  .logo{
+    position: relative;
+    float: right;
+    width: 196px;
+    height: 196px;
+  }
+  
+    /* Style the navigation menu */
+  nav {
+    background-color:#9bb4d5;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+    
+    /* Style the links inside the menu */
+  nav a {
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 500 ;
+    color: #0a264c ;
+    text-transform: uppercase;
+    padding: 30px 30px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    flex-grow: 1;    
+  }
+  
+    /* change anchor's background when hovering or clicking */
+  a.active,a:hover{
+    background-color: #82a2ca;
+  }
+  
+  footer{
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #0a264c ;
+  }
+  .phone, .phone_no{
+      display: inline;
+  }
