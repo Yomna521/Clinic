@@ -1,0 +1,168 @@
+/*Parallax (image moves with scrolling) */
+.parallax{
+  position: inherit;
+  align-self: center;
+  align-items: center;
+  background : url(gallery/arm.JPG) ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 1% 0% 0% 10px;
+  width: 100%;
+  background-position: center;
+}
+/*Adjusts the size of the parallax Image needs to be centered in the page*/
+.parallax-inner{
+  padding-top: 15%;
+  padding-bottom: 15%;
+  padding-left: 750px;
+}
+
+  /*icon image style;*/
+.icon{
+width: 30px;
+cursor: pointer;
+
+}  
+  /*moving background;*/
+.parallax-inner p{
+  position: absolute;
+      color: #ffffff;
+      font-family: "Arapey", Sans-serif;
+      padding-left: 2em;
+      font-size: 40px;
+      text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+      transform: translate(-50%, -50%);
+  }
+
+  /*The headers style;*/
+  h1{
+      margin-left: 40px;
+      display: inline;
+      font-family: "Georgia", Sans-serif;
+      color: #0a264c;
+      font-size: 200%;
+    }
+
+/*dr image style;*/
+.dr img{
+  float: right;
+  width: 100px;
+  margin-left: 100px;  }
+
+  /*dr images scale increase when hovering;*/
+.dr img:hover{
+  transition: 1s;
+  filter: brightness(110%);
+  transform: scale(1.3);
+  cursor: pointer;
+  
+}
+
+  /*The div containing drs names;*/
+.dr{
+  border-radius: 25px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  background-color: #ffffff;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 100px;
+  color:#004295;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 300;
+  height: 150px;
+  
+}
+/*The div scale increase when hover;*/
+.dr:hover{
+  transition: 1s;
+  transform: scale(1.05);
+}
+
+
+/*the clinic image;*/
+#clinicImage{
+  width: 25%;
+  border-radius: 5%;
+  float: right;
+  margin-right: 100px ;
+  margin-top: 40px;
+  cursor: pointer;
+
+}
+
+/*the clinic image scale increase when hover;*/
+#clinicImage:hover{
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+/*The "welcome to the clinic" text;*/
+.about{
+  color:#004295;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 400px;
+  margin-left: 30px;
+  width: 800px;
+}
+
+/*Button style;*/
+button{
+  background-color: rgb(176, 196, 235);
+  font-family: "Poppins", Sans-serif;
+  font-weight: 400px;
+  color:#004295;
+  margin-left: 200px;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+}
+
+/*Table;*/
+.container{
+  margin-left: 450px;
+
+}
+/*Table;*/
+
+.btn-info:hover
+{color:#fff;
+  background-color:#31b0d5;
+  border-color:#269abc}
+/*Table;*/
+
+.table-bordered td
+{border:1px solid rgb(83, 96, 214);
+  background-color: rgb(215, 227, 241);
+  color: #004295;
+
+}
+/*Table;*/
+
+.table-bordered tr
+{border:1px solid rgb(83, 96, 214)}
+
+/*Table;*/
+th{
+
+  color:#004295;
+  font-family: "Poppins", Sans-serif;
+  font-weight: 400px;
+  margin-left: 100%;
+  width: 800px;
+}
+
+/*first dr to show;*/
+#first{
+margin-top:50px ;
+}
+
+iframe{
+/*Youtube video style;*/
+align-self: center;
+align-items: center;
+margin: 1% 0% 0% 450px;
+width: 40%;
+}

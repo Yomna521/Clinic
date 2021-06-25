@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bookstyle.css" />
+    <title>Book an Appointment</title>
+    <link rel="shortcut icon" href="logo.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src='form.js' type="text/javascript"></script>
+  </head>
+
+  <body>
+    <header>
+      <img class="logo" src="logo.png" />
+      <h2>
+        <br />
+        Physique Clinic
+      </h2>
+    </header>
+
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="Location.html">Location</a>
+      <a id="service">Services</a>
+      <a href="Gallery.html">Gallery</a>
+      <a href="bookings.html" style="background-color: #82a2ca; color: rgb(56, 73, 109); font-weight: 600;">Appointments</a>
+      <a id="contact">Contact Us</a>
+    </nav>
+
+    <div class="BlankSpace"></div>
+    <!--drop down list-->
+    <div class="dropdown">
+      <!-- drop down contents for services-->
+      <div class="dropdown-content" id="myDropdown">
+        <ul>
+          <h2>What conditions do we handle?</h2>
+          <li>Neck pain</li>
+          <li>Knee pain</li>
+          <li>Shoulder pain</li>
+          <li>Joint pain</li>
+          <li>Groin/Pelvic pain</li>
+          <li>Sports injuries</li>
+          <li>Acute/Chronic injuries</li>
+          <li>Sprains and strains</li>
+          <li>Sciatica</li>
+          <li>Post-operative rehabilitation</li>
+          <li>Chronic disease management</li>
+          <li>Falls prevention</li>
+          <li>
+            Neurological rehabilitation for stroke, Parkinson's disease, spinal
+            cord injuries
+          </li>
+          <li>Cardio-pulmonary rehabilitation and management</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="BlankSpace"></div>
+    <div class="appointment">
+      <h2>Book an Appointment</h2>
+      <p class="messages">
+        Please fill the following form and we will contact you to confirm your
+        booking. <br />
+      </p>
+      <form class="form">
+        <div class="text">
+          <label for="fname" class="label-required">First Name: </label>
+          <input type="text" id="fname" name="fname"/><br />
+        </div>
+        <div class="text">
+          <label for="lname" class="label-required">Last Name: </label>
+          <input type="text" id="lname" name="lname"/><br />
+        </div>
+        <div class="text">
+          <label for="age" class="label-required">Age: </label>
+          <input type="text" id="age" name="age"/><br />
+        </div>
+        <div class="text">
+          <label for="phone" class="label-required">Phone Number: </label>
+          <input type="text" id="phone" name="phone" ><br />
+        </div>
+        <div>
+          <label for="email" class="label-required">Email: </label>
+          <input type="text" id="email" name="email" /><br />
+        </div>
+        <div>
+          <label for="type" class="label">Session:</label><br />
+          <p class="hint">
+            if you are in pain/suffering from an injury and our doctors have
+            never assessed the injury choose the assesment session.<br />
+            if you are a returning patient and are treating and already assesed
+            injury choose the physiotherapy or recovery session.<br />
+            if you are looking for needling or wet/dry cupping choose recovery.
+          </p>
+          <input type="radio" name="type" id="recovery" value="recovery" />
+          <label for="recovery" class="class-type">Recovery</label><br />
+          <input type="radio" name="type" id="session" value="Physiotherapy" />
+          <label for="session" class="class-type">Physiotherapy Session</label
+          ><br />
+          <input
+            type="radio"
+            name="type"
+            id="assessment"
+            value="assessment"
+            checked
+          />
+          <label for="assessment" class="class-type">Assessment</label><br />
+        </div>
+
+        <div>
+          <p class="hint">
+            if you don't have a preference leave it at N/A and we will appoint a doctor for you.
+          </p>
+          <label for="dr" class="label">Choose a Doctor: </label>
+          <select id="dr" name="dr">
+            <option value="N/A">N/A</option>
+            <option value="Meredith Grey">Dr. Meredith Grey</option>
+            <option value="Alex Karev">Dr. Alex Karev</option>
+            <option value="Derek Shepherd">Dr.Derek Shepherd</option>
+            <option value="Callie Torres">Dr.Callie Torres</option>
+            </select>
+            <br />
+        </div>
+        
+
+        <div>
+          <p class="hint">
+            Starting booking days are accepted 2 days from today
+          </p>
+          <label for="datetime" class="label-required">Appointment Day: </label>
+          <input type="date" for="datetime" id="date" name="date" required/>
+        </div>
+        <div id="button">
+          <input type="submit" id="submit" value="Book"/>
+        </div>
+        <div>
+        <p><ul id="form-errors"></ul></p>
+        </div>
+      </form> 
+
+<br>
+    </div>
+
+    <br /><br />
+    <div class="BlankSpace"></div>
+    <br />
+
+    <footer>
+      <h2>Get In Touch</h2>
+      <p>Say Goodbye To The Pain<br /></p>
+      <img src="instagram.png" class="insta" width="20" height="20" /><a
+        href="https://www.instagram.com/physique.clinic/?utm_medium=copy_link"
+      >
+        Physique Therapy</a
+      >
+      <br />
+      <img src="phone-call.png" class="phone" width="20" height="20" />
+      <p class="phone_no">01023456789</p>
+    </footer>
+
+    <!--contact info pop up modal-->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span id="close">&times;</span><br />
+        <h2>Contact Us</h2>
+        <p>01023456789</p>
+        <p>physiquelclinic@gmail.com</p>
+        <p>49 Fareed Semeika, Al Matar, El Nozha, Cairo Governorate</p>
+      </div>
+    </div>
+  </body>
+
+
+  <script src="event.js" type="text/javascript"></script>
+
+
+
+
+</html>
+
+
