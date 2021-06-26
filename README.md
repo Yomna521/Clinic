@@ -55,7 +55,13 @@ A dropdown list of all services provided by the clinic
 ![b1](https://user-images.githubusercontent.com/59218287/123492617-4e889600-d61a-11eb-9cb0-7843e65afd2e.PNG)
 ![b2](https://user-images.githubusercontent.com/59218287/123492527-036e8300-d61a-11eb-8a28-b1c00666df50.PNG)
 
-### Contact us
+User must fill all fields with valid data:<br><br>
+![WhatsApp Image 2021-06-26 at 1 46 22 AM](https://user-images.githubusercontent.com/59218287/123515149-92b97c00-d696-11eb-88a8-6206ab6c57b5.jpeg)
+![WhatsApp Image 2021-06-26 at 1 46 56 AM](https://user-images.githubusercontent.com/59218287/123515147-9220e580-d696-11eb-92a0-b4ebc5fcb719.jpeg)
+![WhatsApp Image 2021-06-26 at 1 43 50 AM](https://user-images.githubusercontent.com/59218287/123515139-91884f00-d696-11eb-8a9f-3938a94a2a6c.jpeg)
+![WhatsApp Image 2021-06-26 at 1 39 08 AM](https://user-images.githubusercontent.com/59218287/123515144-9220e580-d696-11eb-8f2e-16569c1b9a45.jpeg)
+
+### Contact Us
 ![c](https://user-images.githubusercontent.com/59218287/123492790-ceaefb80-d61a-11eb-8923-4f427c7af27e.PNG)
 A pop up screen with the contact info :
 <ul>
