@@ -36,8 +36,8 @@ The footer contains:
 ![3](https://user-images.githubusercontent.com/59218287/123491342-c05ee080-d616-11eb-906d-462528835c7e.PNG)
 When "Meet the doctors" is clicked<br><br>
 ![4](https://user-images.githubusercontent.com/59218287/123491344-c228a400-d616-11eb-835a-b8d1311e4c3a.PNG)
-When "User Reviews" is clicked <br><br>
- -----------------ADD IMAGE----------------
+When "Click to view reviews" is clicked <br><br>
+![WhatsApp Image 2021-06-26 at 1 14 46 AM](https://user-images.githubusercontent.com/59218287/123514942-b3350680-d695-11eb-9d5c-84e528a1e1c2.jpeg)
  
 ### Location 
 ![loc](https://user-images.githubusercontent.com/59218287/123492238-45e39000-d619-11eb-8d79-76d1587aceb1.PNG)
